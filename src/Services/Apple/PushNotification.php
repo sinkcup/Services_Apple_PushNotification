@@ -56,6 +56,7 @@ class Services_Apple_PushNotification
     /**
      * 发一条消息
      *
+     * @param string $deviceToken 在iOS app中获得的设备号
      * @param array $data array(
         'aps' => array(
             'alert' => 'asdf', //消息
